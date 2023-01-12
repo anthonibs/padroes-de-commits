@@ -67,7 +67,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Acessibilidade</td>
       <td>♿ <code>:wheelchair:</code></td>
-      <td></td>
+      <td><code>a11y</code></td>
     </tr>
     <tr>
       <td>Adicionando um teste</td>
