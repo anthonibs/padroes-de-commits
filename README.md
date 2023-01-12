@@ -28,13 +28,15 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `perf` - Commits do tipo perf servem para identificar quaisquer alterações de código que estejam relacionadas a **performance**.
 
-- `style` - Commits do tipo style indicam que houveram alterações referentes a **formatações de código**, semicolons, trailing spaces, lint... (Não inclui alterações em código).
+- `style` - Commits do tipo style indicam que houveram alterações referentes a **formatações na apresentação do código** que não afetam o significado do código, como por exemplo: espaço em branco, formatação, ponto e vírgula ausente etc.).
 
 - `refactor` - Commits do tipo refactor referem-se a mudanças devido a **refatorações que não alterem sua funcionalidade**, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review.
 
 - `chore` - Commits do tipo chore indicam **atualizações de tarefas** de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
+
+- `a11y` - Acessibilidade significa desenvolver o conteúdo para ser o mais acessível possível, independentemente das habilidades físicas e cognitivas de um indivíduo e de como ele acessa a web. É um numerônimo, com **11** representando a contagem de letras entre a letra **a** e a letra **y** .
 
 ## ☑️ Recomendações
 
@@ -122,7 +124,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Em progresso</td>
       <td>🚧 <code>:construction:</code></td>
-      <td></td>
+      <td><code>progress</code></td>
     </tr>
     <tr>
       <td>Estilização de interface</td>
@@ -137,7 +139,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Lista de ideias (tasks)</td>
       <td>🔜 <code> :soon: </code></td>
-      <td></td>
+      <td><code>docs</code></td>
     </tr>
     <tr>
       <td>Mover/Renomear</td>
@@ -177,7 +179,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Responsividade</td>
       <td>📱 <code>:iphone:</code></td>
-      <td></td>
+      <td><code>feat</code></td>
     </tr>
     <tr>
       <td>Revertendo mudanças</td>
@@ -187,12 +189,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Segurança</td>
       <td>🔒️ <code>:lock:</code></td>
-      <td></td>
+      <td><code>safe</code></td>
     </tr>
     <tr>
       <td>SEO</td>
       <td>🔍️ <code>:mag:</code></td>
-      <td></td>
+      <td><code>seo</code></td>
     </tr>
     <tr>
       <td>Tag de versão</td>
@@ -212,7 +214,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Texto</td>
       <td>📝 <code>:pencil:</code></td>
-      <td></td>
+      <td><code>docs</code></td>
     </tr>
     <tr>
       <td>Tipagem</td>
